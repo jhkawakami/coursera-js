@@ -24,5 +24,5 @@ function resetCount(){
     count = 0;
 
     displayCount();
-    checkCountValue();
+    alert("The Followers Count has been Reset");
 }
