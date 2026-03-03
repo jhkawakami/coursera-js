@@ -19,3 +19,10 @@ function checkCountValue(){
         alert("You gained 20 followers! Congratulations!");
     }
 }
+
+function resetCount(){
+    count = 0;
+
+    displayCount();
+    checkCountValue();
+}
